@@ -213,8 +213,6 @@ div[collapsed="true"] > .expander + * {
   font-family: sans-serif;
   background-image: none;
   background-color: white;
-  border-radius-top-right: none;
-  border-radius-bottom-right: none;
 }
 
 #searchbox > button {

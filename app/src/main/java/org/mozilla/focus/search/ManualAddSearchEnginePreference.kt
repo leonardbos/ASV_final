@@ -119,13 +119,13 @@ class ManualAddSearchEnginePreference(context: Context, attrs: AttributeSet) :
 
     private fun buildTextWatcherForErrorLayout(errorLayout: TextInputLayout): TextWatcher {
         return object : TextWatcher {
-            override fun beforeTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {}
+            override fun beforeTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {/*Has no function at the moment*/}
 
             override fun onTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {
                 errorLayout.error = null
             }
 
-            override fun afterTextChanged(editable: Editable) {}
+            override fun afterTextChanged(editable: Editable) {/*Has no function at the moment*/}
         }
     }
 
